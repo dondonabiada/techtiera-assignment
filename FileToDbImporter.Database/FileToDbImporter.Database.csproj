@@ -8,10 +8,19 @@
 
   <ItemGroup>
     <None Remove="SqlScripts\01-Create Database.sql" />
+    <None Remove="TechTieraDataModel.Diagram1.view" />
+    <None Remove="TechTieraDataModel.edps" />
+    <None Remove="TechTieraDataModel.efml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="SqlScripts\01-Create Database.sql" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SqlScripts\" />
   </ItemGroup>
 
 </Project>

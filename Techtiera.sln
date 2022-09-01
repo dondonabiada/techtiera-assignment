@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToDbImporter.Core.Web", "FileToDbImporter.Core.Web\FileToDbImporter.Core.Web.csproj", "{5B055B29-8A7F-497B-9180-93C3E94B0C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileToDbImporter.Core.Web", "FileToDbImporter.Core.Web\FileToDbImporter.Core.Web.csproj", "{5B055B29-8A7F-497B-9180-93C3E94B0C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToDbImporter.Database", "FileToDbImporter.Database\FileToDbImporter.Database.csproj", "{1D58E328-4498-4925-84F7-EC872F4DA208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileToDbImporter.Database", "FileToDbImporter.Database\FileToDbImporter.Database.csproj", "{1D58E328-4498-4925-84F7-EC872F4DA208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToDbImporter.Core", "FileToDbImporter.Core\FileToDbImporter.Core.csproj", "{50A666BD-9E03-4D32-A02C-20EC38C9E201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1D58E328-4498-4925-84F7-EC872F4DA208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D58E328-4498-4925-84F7-EC872F4DA208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D58E328-4498-4925-84F7-EC872F4DA208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A666BD-9E03-4D32-A02C-20EC38C9E201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A666BD-9E03-4D32-A02C-20EC38C9E201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A666BD-9E03-4D32-A02C-20EC38C9E201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A666BD-9E03-4D32-A02C-20EC38C9E201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

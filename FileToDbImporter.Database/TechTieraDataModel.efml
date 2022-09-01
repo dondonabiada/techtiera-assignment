@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore context-namespace="FileToDbImporter.Database" namespace="FileToDbImporter.Database.Entites" p1:name="TechtieraDbContext" p1:Guid="50f858c6-b485-4c7d-85a1-d92c46cfcc07" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="Transaction" entity-set="Transactions" table="Transactions" schema="dbo" p1:Guid="59660727-c841-4a24-b6d1-a43884b78fe5">
+    <id name="TransactionId" type="String" p1:ValidateMaxLength="50" p1:ValidateRequired="true" p1:Guid="41ed9b12-d2b8-49a1-a942-95d5ade9d0a5">
+      <column name="TransactionId" not-null="True" length="50" sql-type="nvarchar" unique="True" p1:unicode="True" />
+    </id>
+    <property name="Amount" type="Decimal" p1:ValidateRequired="true" p1:Guid="685c4a21-ec26-4e21-bb7b-a054d5b9b44e">
+      <column name="Amount" default="0" not-null="True" precision="18" scale="0" sql-type="decimal" p1:unicode="False" />
+    </property>
+    <property name="CurrencyCode" type="String" p1:ValidateMaxLength="3" p1:ValidateRequired="true" p1:Guid="d7360c85-1b70-432f-aa8b-8d961a6792ea">
+      <column name="CurrencyCode" not-null="True" length="3" sql-type="nvarchar" p1:unicode="True" />
+    </property>
+    <property name="TransactionDate" type="DateTime" p1:ValidateRequired="true" p1:Guid="907efc47-ecd7-43e2-b0f6-7b853e397fd7">
+      <column name="TransactionDate" not-null="True" sql-type="datetime2" p1:unicode="False" />
+    </property>
+    <property name="Status" type="String" p1:ValidateMaxLength="10" p1:ValidateRequired="true" p1:Guid="c8682bcb-9bbd-4fe0-89a3-2011347d4a59">
+      <column name="Status" not-null="True" length="10" sql-type="nvarchar" p1:unicode="True" />
+    </property>
+  </class>
+</efcore>
